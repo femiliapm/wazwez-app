@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main .card-main {
+  width: 55%;
+  padding: 40px;
+}
+
+.card-main .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.card-main .sort {
+  margin-bottom: 36px;
+}
