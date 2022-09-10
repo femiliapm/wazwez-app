@@ -1,0 +1,4 @@
+Query yg dibutuhkan untuk aplikasi wazwez
+1. Untuk menampilkan data task
+2. Untuk menampilkan nama dan avatar user
+3. Untuk menampilkan data subtask

@@ -37,9 +37,17 @@
       <div class="list">
         <div class="input-item hidden">
           <input type="text" placeholder="Masukkan nama tugas" id="input-task">
+          <input type="text" placeholder="Deskripsi tugas (opsional)" id="input-desc">
+          <input type="datetime-local" placeholder="Tanggal & Waktu" id="input-date">
           <button onclick="validateInput()">submit</button>
         </div>
-        <div class="item">list item 1</div>
+        <div class="item">
+          <ul>
+            <li>Product Design</li>
+            <li>Development</li>
+            <li>Launching Wazwez Website</li>
+          </ul>
+        </div>
         <!-- <div class="item">list item 2</div>
         <div class="item">list item 3</div>
         <div class="item">list item 4</div> -->

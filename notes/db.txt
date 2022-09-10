@@ -1,0 +1,39 @@
+Relational Database
+1. one to one
+2. one to many
+3. many to one
+4. many to many
+
+User melakukan login
+  | username dan password: db lalu didapatkan data detail usernya
+  | simpan storage atau cache
+  | data detailnya akan ditampilkan ke halaman browser
+
+User melihat dashboard
+  | data detail dari login ditampilkan untuk nama di navbar
+
+TUGAS: 
+DDL: create db berdasarkan struktur erdnya
+DML: insert data sesuai db
+DQL: siapkan query yg dibutuhkan
+wazwez.sql export
+wazwez.erd.txt
+wazwez.sql.txt
+
+Database Sesi 3
+Bagaimana untuk menghubungkan UI html css js dengan database kita?
+
+1. Server side rendering / fullstack => semua ada dalam satu project
+- my sql
+- html css js
+- digabung dengan php / nodejs / java / or any other language
+
+2. Pisah project / split
+2.1. Backend project
+- my sql / database
+-- php (laravel) / asp / .net / nodejs (express js) / python (django) / java (spring boot) / golang
+
+2.2. Frontend project
+- html, css, js
+-- react js, angular, ember js or any other language
+

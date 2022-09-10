@@ -7,7 +7,13 @@ const btnCreate = document.getElementById("create-task");
 btnCreate.addEventListener("click", function () {
   const inputItem = document.getElementsByClassName("input-item")[0];
   // console.log(inputItem);
-  inputItem.classList.remove("hidden");
+
+  // validate if input is open, when click again input is hidden
+  if (inputItem.className.includes("hidden")) {
+    inputItem.classList.remove("hidden");
+  } else {
+    inputItem.classList.add("hidden");
+  }
 });
 
 // const itemEl = document.getElementsByClassName("item");
