@@ -37,3 +37,6 @@ Bagaimana untuk menghubungkan UI html css js dengan database kita?
 - html, css, js
 -- react js, angular, ember js or any other language
 
+2.3. API
+
+LOGIN-> userid: 1 (cache browser)

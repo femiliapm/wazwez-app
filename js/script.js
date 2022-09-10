@@ -18,12 +18,3 @@ btnCreate.addEventListener("click", function () {
 
 // const itemEl = document.getElementsByClassName("item");
 // console.log(itemEl[0]);
-
-function validateInput() {
-  // mengambil value dari input nama tugas
-  const valInput = document.getElementById("input-task").value;
-  // proses validasi
-  if (valInput == "") {
-    alert("Nama tugas belum diisi");
-  }
-}
